@@ -1,0 +1,118 @@
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  padding: 20px; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color:hsl(0, 0%, 95%);
+}
+
+
+.container {
+  width: 50%;
+  padding: 50px;
+  height: auto;
+  margin: 10% auto 0;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section {
+  padding: 50px;
+  color: white;
+  max-width: 75%;
+
+}
+
+section.one {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+section.two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+section.three {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+.title-box, section p {
+  margin: 8% 0;
+}
+
+.title-box {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+section p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+button  {
+  padding: 12px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  margin: 25% 0 0;
+  cursor: pointer;
+}
+
+.one button {
+  color: hsl(31, 77%, 52%);
+}
+
+.two button {
+  color: hsl(184, 100%, 22%);
+}
+
+.three button {
+  color: hsl(179, 100%, 13%);
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 75%;
+    height: auto;
+    margin: 10% auto;
+    border-radius: 10px;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(30vh);
+  }
+
+  section.one {
+    border-radius: 10px 10px 0 0 ;
+  }
+
+  section.three {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+
+
