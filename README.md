@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/3-column-card-with-css-grid-3lMiMxQnL
 - Live Site URL: https://3-column-card-three.vercel.app/
 
 ## My process
